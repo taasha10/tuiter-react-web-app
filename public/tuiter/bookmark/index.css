@@ -1,50 +1,44 @@
-body{
+body {
     background-color: black;
-    border-color: rgb(47, 51, 54) ;
+    border-color: rgb(47, 51, 54);
     color: white;
     font-family: Arial, sans-serif;
 }
 
-.wd-bookmark-title{
+.wd-bookmark-title {
     margin-left: 16px;
     margin-top: 12px;
     font-size: 20px;
     font-weight: bold;
 }
 
-.wd-border{
+.wd-border {
     border-bottom: 1px solid;
 
 }
 
-.wd-gray-handle-title{
+.wd-gray-handle-title {
     color: lightgray;
-    font-size:13px;
+    font-size: 13px;
     margin-top: 16px;
     margin-left: 16px;
     margin-bottom: 12px;
 }
 
-.wd-div-border{
-    border-left: 1px solid;
-    border-right:1px solid;
-    margin-left:10px;
-    margin-right:10px;
-}
 
-.wd-dp-round{
+.wd-dp-round {
     border-radius: 50%;
     margin-top: 12px;
     margin-left: 16px;
-    width:48px;
-    height:48px;
+    width: 48px;
+    height: 48px;
     display: inline;
     vertical-align: middle;
     float: left;
-    clear:both;
+    clear: both;
 }
 
-.wd-author-name{
+.wd-author-name {
     margin-top: 12px;
     margin-left: 12px;
     font-size: 15px;
@@ -52,16 +46,16 @@ body{
 
 }
 
-.wd-author-handle{
+.wd-author-handle {
     margin-top: 12px;
     font-size: 15px;
-    color:lightgray;
+    color: lightgray;
     display: inline-block;
 
 }
 
 
-.wd-post-content{
+.wd-post-content {
     font-size: 15px;
     width: 506px;
     padding-right: 16px;
@@ -72,14 +66,12 @@ body{
 
 }
 
-.wd-rounded-corners{
-    /*border-radius: 10%;*/
-    /*border:solid 1px;*/
+.wd-rounded-corners {
     margin-left: 76px;
 
 }
 
-.wd-banner-img{
+.wd-banner-img {
     width: 504px;
     height: 264px;
     /*padding:0;*/
@@ -88,11 +80,11 @@ body{
 
 }
 
-.wd-text-content{
+.wd-text-content {
     width: 477px;
     font-size: 15px;
-    padding:12px;
-    border:solid 1px;
+    padding: 12px;
+    border: solid 1px;
     border-bottom-right-radius: 15%;
     border-bottom-left-radius: 15%;
     color: lightgray;
@@ -100,8 +92,7 @@ body{
 
 }
 
-.wd-text-title{
-    /*font-size: 15px;*/
+.wd-text-title {
     font-weight: bold;
     color: white;
 
@@ -131,7 +122,6 @@ body{
     color: red;
     font-size: 22px;
     text-decoration: none;
-    /*color: rgb(110, 118, 125);*/
 }
 
 .wd-regular-grid-fourth {
@@ -141,9 +131,9 @@ body{
     text-decoration: none;
 }
 
-.wd-numbers{
+.wd-numbers {
     margin-left: 12px;
-    font-size:15px;
+    font-size: 15px;
 }
 
 .wd-dots {
@@ -160,6 +150,13 @@ body{
     display: inline;
     color: lightgray;
     vertical-align: top;
+}
+
+.wd-div-border {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .wd-verified {

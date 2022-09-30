@@ -22,6 +22,7 @@
     display: inline;
     color: rgb(29, 161, 242);
     font-size: 25px;
+    text-decoration: none;
 
 }
 
@@ -30,13 +31,9 @@
     margin-right: 12px;
 }
 
-.wd-verified {
-    display: inline;
-    color: dodgerblue;
-}
 
 .wd-grid {
-    size: 15px;
+    font-size: 15px;
     color: rgb(110, 118, 125);
     display: inline;
     font-family: "Arial Black", sans-serif;
@@ -55,30 +52,14 @@
 
 }
 
-.wd-highlighted-grid-first {
+.wd-highlighted-grid {
     color: rgb(29, 161, 242);
     padding: 16px;
     border-bottom-color: rgb(29, 161, 242);
     border-bottom: solid;
 }
 
-.wd-regular-grid-second {
-    padding: 16px;
-}
-
-.wd-regular-grid-third {
-    padding: 16px;
-}
-
-.wd-regular-grid-fourth {
-    padding: 16px;
-}
-
-.wd-regular-grid-fifth {
-    padding: 16px;
-}
-
-.wd-regular-grid-sixth {
+.wd-regular-grid {
     padding: 16px;
 }
 
@@ -127,4 +108,16 @@ h2 {
 .wd-border-bottom {
     border-bottom-color: rgb(110, 118, 125);
     border-bottom-width: thin;
+}
+
+.wd-div-border {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.wd-verified {
+    display: inline;
+    color: dodgerblue;
 }
