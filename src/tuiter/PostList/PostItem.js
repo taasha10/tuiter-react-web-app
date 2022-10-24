@@ -1,5 +1,5 @@
 import React from "react";
-import posts from "./posts.json";
+
 
 const PostItem =({
                      posts = {
@@ -26,7 +26,7 @@ const PostItem =({
                         <div className="row">
                             <div className="col-1 pl-1 pr-0">
                                 <img className="rounded-circle"
-                                     src={`../images/${posts.display}`} width="100%"/>
+                                     src={`../images/${posts.display}`} width="100%" alt={"img"}/>
                             </div>
                             <div className="col-11">
                                 <span className="fw-bold">{posts.userName} </span>
@@ -37,7 +37,7 @@ const PostItem =({
                                 <p>{posts.title}</p>
                                 <div>
                                     <img className="wd-rounded-top" src={`../images/${posts.post.image}`}
-                                         width="100%"/>
+                                         width="100%" alt={"img"}/>
                                     <div className=" wd-rounded-bottom">
                                     <p className="fw-bold">{posts.post.heading}</p>
                                     <p className="text-muted">{posts.post.content}</p>
