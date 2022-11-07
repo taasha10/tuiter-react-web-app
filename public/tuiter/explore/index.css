@@ -1,12 +1,23 @@
+body {
+    background-color: black !important;
+    font-size: 15px;
+    color: white;
+}
+
+p {
+    margin: 0;
+}
+
+
 .wd-search-tuiter {
     display:flex;
     flex-direction: row;
     align-items: center;
+    padding-bottom: 10px;
 
 }
 
 .wd-search-input{
-
     display:flex;
     flex-direction: row;
     align-items: center;
