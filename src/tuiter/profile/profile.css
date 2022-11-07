@@ -1,0 +1,59 @@
+.wd-con-box {
+    border: 1px #ddd solid;
+    border-radius: 6px;
+}
+
+.wd-dp-box {
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 3px;
+}
+
+.wd-dp-box img {
+    border-radius: 50%;
+}
+
+.wd-dp-layover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+}
+
+.wd-pointer {
+    cursor: pointer;
+}
+
+.wd-inp-con {
+    border: 1px #ddd solid;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.wd-inp-con label {
+    font-size: 85%;
+}
+
+.wd-inp-con input,
+.wd-inp-con textarea {
+    border: 0;
+    outline: none;
+    padding: 0;
+}
+
+.wd-inp-con input:focus,
+.wd-inp-con textarea:focus {
+    outline: none;
+    box-shadow: none;
+}
