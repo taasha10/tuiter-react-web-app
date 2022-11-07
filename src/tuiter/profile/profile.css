@@ -1,26 +1,30 @@
-.wd-con-box {
+.wd-container {
     border: 1px #ddd solid;
     border-radius: 6px;
 }
 
-.wd-dp-box {
+.wd-profile-circle img{
+    border-radius: 50px;
+}
+
+.wd-profile-circle {
     width: 100px;
     height: 100px;
     margin-top: -50px;
     background-color: white;
     border-radius: 50px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    padding: 3px;
+    padding: 2px;
+
 }
 
-.wd-dp-box img {
-    border-radius: 50%;
+
+
+.wd-profile-layover{
+    border-radius: 50px;
 }
 
-.wd-dp-layover {
+.wd-layover {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -31,29 +35,25 @@
     top: 0;
 }
 
-.wd-pointer {
-    cursor: pointer;
-}
 
-.wd-inp-con {
+
+.wd-input {
     border: 1px #ddd solid;
     padding: 10px;
     border-radius: 6px;
 }
 
-.wd-inp-con label {
-    font-size: 85%;
-}
-
-.wd-inp-con input,
-.wd-inp-con textarea {
+.wd-input input,
+.wd-input textarea {
     border: 0;
     outline: none;
     padding: 0;
 }
 
-.wd-inp-con input:focus,
-.wd-inp-con textarea:focus {
-    outline: none;
-    box-shadow: none;
+.wd-input label {
+    font-size: 85%;
+    color:gray;
 }
+
+
+

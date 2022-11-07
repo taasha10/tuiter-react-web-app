@@ -5,7 +5,6 @@ import ProfileInfo from "./profile-info";
 const ProfileComponent = () => {
     return (<>
             <ProfileInfo/>
-
         </>
 
     );

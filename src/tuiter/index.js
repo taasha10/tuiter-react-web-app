@@ -5,7 +5,7 @@ import NavigationSidebar from "./navigation-sidebar";
 import WhoToFollowList from "./who-to-follow-list";
 import {Routes, Route} from "react-router";
 import profileReducer
-    from "./profile/profile-reducer";
+    from "./reducers/profile-reducer";
 import tuitsReducer from "./tuits/tuits-reducer";
 import whoReducer
     from "./reducers/who-reducer";

@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 let initialState = {
             firstName: "Pratyasha",
             lastName: "Sharma",
-            tuitsCount: 6114,
+            tuitsCount: "6,114",
             handle: "@pratyasharma",
             profilePicture: "owner.jpeg",
             bannerPicture: "banner.jpeg",
