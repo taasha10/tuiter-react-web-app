@@ -1,4 +1,6 @@
 import React from "react";
+import { useDispatch } from "react-redux";
+import {updateTuitThunk } from "../../services/tuits-thunks";
 const TuitStats = (
     {
         tuit = {
@@ -12,24 +14,39 @@ const TuitStats = (
             "replies": 123,
             "retuits": 432,
             "likes": 2345,
+            "dislikes": 10,
             "handle": "@spacex",
             "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
         }
 
     }
 ) => {
+    const dispatch = useDispatch();
     return(
-            <div className="row">
-                <span className="col-3">
-                    <i className="fa-solid fa-comment"></i> {tuit.replies}
+            <div className=" d-flex flex-row">
+                <span className="flex-fill">
+                    <i className="fa-solid fa-comment"/> {tuit.replies}
                 </span>
-                <span className="col-3">
-                    <i className="fa-solid fa-retweet"></i> {tuit.retuits}
+                <span className="flex-fill">
+                    <i className="fa-solid fa-retweet"/> {tuit.retuits}
                 </span>
-                <span className="col-3">
-                    <span className={`fa-heart fa-solid ${tuit.liked ? 'text-danger ' : ''}`}></span> {tuit.likes}
+                <span className="flex-fill">
+                     <i onClick={() => dispatch(updateTuitThunk({
+                                                                   ...tuit,
+                                                                   likes: tuit.likes + 1
+                                                               }))
+                    } className="bi bi-heart-fill me-2 text-danger"/> {tuit.likes}
+
                 </span>
-                <span className="col-3">
+                <span className="flex-fill">
+                     <i onClick={() => dispatch(updateTuitThunk({
+                                                                                       ...tuit,
+                                                                                       dislikes: tuit.dislikes + 1
+                                                                                   }))
+                } className="fa-solid fa-thumbs-down"/> {tuit.dislikes}
+
+                </span>
+                <span className="flex-fill">
                     <i className="fa-solid  fa-share-nodes">
                     </i>
                 </span>

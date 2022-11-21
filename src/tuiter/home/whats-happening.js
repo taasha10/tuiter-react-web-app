@@ -1,5 +1,7 @@
 import React, {useState} from "react";
-import {createTuit} from "../tuits/tuits-reducer";
+import {createTuitThunk}
+    from "../../services/tuits-thunks";
+
 import {useDispatch} from "react-redux";
 
 const WhatsHappening = () => {
@@ -9,7 +11,7 @@ const WhatsHappening = () => {
         const newTuit = {
             tuit: whatsHappening
         }
-        dispatch(createTuit(newTuit));
+        dispatch(createTuitThunk(newTuit));
 
     }
     return (
@@ -28,11 +30,11 @@ const WhatsHappening = () => {
                         Tuit
                     </button>
                     <div className="text-primary fs-2">
-                        <i className="bi bi-card-image me-3"></i>
-                        <i className="bi bi-filetype-gif me-3"></i>
-                        <i className="bi bi-bar-chart me-3"></i>
-                        <i className="bi bi-emoji-smile me-3"></i>
-                        <i className="bi bi-geo-alt"></i>
+                        <i className="bi bi-card-image me-3"/>
+                        <i className="bi bi-filetype-gif me-3"/>
+                        <i className="bi bi-bar-chart me-3"/>
+                        <i className="bi bi-emoji-smile me-3"/>
+                        <i className="bi bi-geo-alt"/>
                     </div>
                 </div>
             </div>
